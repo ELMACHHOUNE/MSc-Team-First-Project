@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import Footer from "../components/Footer";
 
 const TEAM_MEMBERS = [
   {
@@ -176,9 +177,8 @@ export default function Home() {
       </main>
 
       {/* Footer */}
-      <footer className="relative z-10 border-t border-white/5 py-8 px-6 text-center text-gray-700 text-sm">
-        MSc Team · GOMYCODE 2026 · Construit avec React & Tailwind CSS
-      </footer>
+    
+      <Footer />
     </div>
   );
 }

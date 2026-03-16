@@ -2,6 +2,7 @@ import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Birante from "./pages/Birante";
 
+
 export default function App() {
   return (
     <Routes>
