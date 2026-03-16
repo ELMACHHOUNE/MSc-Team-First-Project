@@ -1,7 +1,12 @@
+import { Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import Birante from "./pages/Birante";
+
 export default function App() {
   return (
-    <>
-      <h1 className="text-3xl font-bold underline">Welcome to our project</h1>
-    </>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/birante" element={<Birante />} />
+    </Routes>
   );
 }
